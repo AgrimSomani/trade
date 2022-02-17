@@ -1,0 +1,109 @@
+header{
+    display:flex;
+    flex-flow:row nowrap;
+    justify-content:space-between;
+    border-bottom:2px solid black;
+}
+.leftheader{
+    flex-basis:40%;
+    text-align:right;
+    padding-right:0.5rem;
+}
+.rightheader{
+    flex-basis:60%;
+    text-align:left;
+}
+.leftheader img{
+    margin-bottom:-0.1rem;
+    border-top:0.1rem solid darkblue;
+    border-right:0.3rem solid darkblue;
+    border-bottom:0.1rem solid darkblue;
+    border-left:0.3rem solid darkblue;
+}
+.rightheader h1{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:darkblue;
+    padding-top:0;
+}
+.rightheader p{
+   margin-top:-1.5rem;
+   text-align: center;
+   width:33%;
+}
+.h1{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:darkblue;
+}
+.topics{
+    font-size: 1.3rem;
+    display:flex;
+    flex-flow:row nowrap;
+    justify-content: space-around;
+}
+.topics img{
+    border-top:0.1rem solid darkblue;
+    border-right:0.3rem solid darkblue;
+    border-bottom:0.1rem solid darkblue;
+    border-left:0.3rem solid darkblue;
+}
+.topics p{
+    width:336px;
+    text-align:center;
+}
+.stocks a{
+    text-decoration: none;
+}
+.stocks a:hover{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border:1px solid black;
+    color: black;
+}
+.info{
+    border-top:0.1rem solid darkblue;
+    border-right:0.4rem solid darkblue;
+    border-bottom:0.1rem solid darkblue;
+    border-left:0.4rem solid darkblue;
+}
+.corner{
+    top: -0.4rem;
+    left:-0.4rem;
+    border-top:0.1rem solid darkblue;
+    border-right:0.4rem solid darkblue;
+}
+nav ul{
+    list-style-type:none;
+    padding:0;
+    margin:0;
+    display:flex;
+    border: 0px round red;
+    flex-flow:row nowrap;
+    justify-content:space-around;
+    border-bottom: 2px solid black;
+}
+nav li{
+    font-size: 1.5rem;
+}
+nav a{
+    display:block;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:darkblue;
+    text-decoration:none;
+}
+nav a:hover{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border:1px solid black;
+    color: black;
+}
+footer {
+    text-align:center;
+    padding:0;
+}
+footer ul{
+    padding:0;
+    list-style-type:none;
+    border:1px solid darkblue;
+}
+footer li{
+    display:inline-block;
+    margin-left:0.3rem;
+}
